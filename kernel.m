@@ -14,7 +14,8 @@ xsum2 = 0;
 ysum2 = 0;
 co1 = 0;
 co2 = 0;
-% loop
+% here you can add something of the kind while(deltax 1= 0 and deltay != 0)
+% keep looping
 for i =1:iter
     %calculating the distance between centroids and data points
     pos1 = data(i,:) - c1;
@@ -39,6 +40,8 @@ for i =1:iter
         co1 = co1 + 1;
     end
 end
+
+%Defining new centroids
 c1 = [xsum1/co1, ysum1/co1];
 c2 = [xsum2/co2, ysum2/co2];
 
