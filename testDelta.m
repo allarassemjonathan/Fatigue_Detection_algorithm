@@ -10,7 +10,7 @@ cluster1 = [];
 cluster2 = [];
 
 %initailizing the number of time we want to iterate
-numberIter = 1000;
+numberIter = 5;
 
 for j =1:numberIter
     for i=1: size(data)
@@ -29,6 +29,8 @@ for j =1:numberIter
         c1 = mean(cluster1);
         c2 = mean(cluster2);
     end
+    figure;
+    scatter(cluster1(:,1), cluster1(:,2), 'filled');
     disp("iteration :" + j)
     disp(c1)
     disp(c2)
