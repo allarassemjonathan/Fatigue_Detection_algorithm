@@ -12,7 +12,7 @@ cluster2 = [];
 %initailizing the number of time we want to iterate
 numberIter = 1000;
 
-for j =1:numberIter
+
     for i=1: size(data)
         
         %calcul of the distance between one data point
@@ -28,8 +28,6 @@ for j =1:numberIter
         end
         c1 = mean(cluster1);
         c2 = mean(cluster2);
+        disp(c1)
+        disp(c2)
     end
-    disp("iteration :" + j)
-    disp(c1)
-    disp(c2)
-end
