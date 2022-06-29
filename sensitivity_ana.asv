@@ -1,0 +1,14 @@
+bounds = 10;
+c = 3;
+s1 = c;
+s2 = s1;
+accuracy_m = [];
+for delta=1:bounds
+    A = gen(bounds,delta, s1, s2, 10,10);
+    theta = expectation_maximization(A);
+    mup = sqrt(theta(1)^2 + theta(2)^2);
+    mu = 
+    accuracy_m = [accuracy_m, mu];
+end
+plot(accuracy_m)
+

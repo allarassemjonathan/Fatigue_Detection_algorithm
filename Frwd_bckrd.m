@@ -1,5 +1,4 @@
 function  gamma = Frwd_bckrd(data, mu1, sigma1, mu2, sigma2, Markov_chain)
-gamma = [];
 
 f = [0.5 ;0.5];
 MU1 = mu1; MU2 = mu2;
@@ -21,6 +20,7 @@ for i=1:size(B,2)
     PI =[PI f];
 end
 
+disp(PI);
 %backward walk
 b = [1;1];
 BE = [];
