@@ -9,4 +9,7 @@ Once we have learn the parameters from the data we can make prediction using the
 
 ## Learning the parameters of the mixture of Gaussian
 
+We use the Expectation Maximization to learn the parameters.
+1 - Randomly initialize the parameters of the two models as well as &pi the parameter of the latent variable. Randomly initialize the 2xn vector &Gamma that will hold the conditional probabilities for the individual datapoints. 
+2 - 
 
