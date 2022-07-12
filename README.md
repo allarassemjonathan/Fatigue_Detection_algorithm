@@ -27,4 +27,11 @@ In this example &epsilon; 's value is 10^-20.
 
 Once the model is learned we can start making predictions. We use the forward backward algorithm for that. It can be easily derived from the bayesian network. 
 First we have to find the joint distribution from the network:<br><br>
-<img src="https://github.com/allarassemjonathan/Fatigue_Detection_algorithm/blob/main/im5.PNG" width=400 height=400><br>
+<img src="https://github.com/allarassemjonathan/Fatigue_Detection_algorithm/blob/main/im5.PNG" width=400 height=400><br><br>
+
+The Markov Chain is learned from data through a Monte Carlo process, the others parameters are learned from the Personalization part. Using the Bayes rule we can derive that in fact the likelihood is proportional to the joint distribution. From that we can use the below expression to compute the likelihood of the data.
+
+<img src="https://github.com/allarassemjonathan/Fatigue_Detection_algorithm/blob/main/im6.PNG" width=400 height=40><br><br>
+
+
+
