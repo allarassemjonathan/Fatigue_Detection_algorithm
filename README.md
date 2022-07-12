@@ -37,4 +37,4 @@ We notice that after doing the backward part of the algorithm, we find pretty mu
 
 ## Results 
 
-
+We were able to achieve 99% accuracy on test data and are waiting for the data from the patients to be able to run the entire process after a run of the athlete. 
