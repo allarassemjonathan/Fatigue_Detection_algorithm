@@ -26,4 +26,5 @@ In this example &epsilon; 's value is 10^-20.
 ## Making predictions
 
 Once the model is learned we can start making predictions. We use the forward backward algorithm for that. It can be easily derived from the bayesian network. 
-Let us recall that the observations X follows a normal distribution of mean  μ_k and deviation  σ_k: X ~ N(μ_k,σ_k ). In the same way the latent variable Z is sampled from a categorical from the vector π_k:  Z ~ cat(Z;π_k )
+First we have to find the joint distribution from the network:
+<img src="https://github.com/allarassemjonathan/Fatigue_Detection_algorithm/blob/main/im5.PNG" width=400 height=300><br><br>
