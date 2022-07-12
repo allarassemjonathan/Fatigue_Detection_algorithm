@@ -19,5 +19,5 @@ We use the Expectation Maximization to learn the parameters.<br>
 Below we can see how the algorithm is run until the values of the parameters start converging breaking the condition put on the &epsilon;. 
 In this example &epsion's value is 10^-20.
 
-
+<img src="https://github.com/allarassemjonathan/Fatigue_Detection_algorithm/blob/main/EMrunning.PNG" width=640 height=400>
 
