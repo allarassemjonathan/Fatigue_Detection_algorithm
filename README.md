@@ -11,14 +11,10 @@ Once we have learn the parameters from the data we can make prediction using the
 
 We use the Expectation Maximization to learn the parameters.<br>
 1 - Randomly initialize the parameters of the two models (&mu; and &sigma;) as well as &pi; the parameter of the latent variable. Randomly initialize the 2xn vector  &gamma; that will hold the conditional probabilities for the individual datapoints given the value of the latent Z.<br>
-
-<img src="https://github.com/allarassemjonathan/Fatigue_Detection_algorithm/blob/main/im1.PNG" width=400 height=30>
-<img src="https://github.com/allarassemjonathan/Fatigue_Detection_algorithm/blob/main/im2.PNG" width=400 height=400>
-
 2 - Compute the new value of &gamma; with the randomly generated model.<br>
-
-
+<img src="https://github.com/allarassemjonathan/Fatigue_Detection_algorithm/blob/main/im2.PNG" width=400 height=400>
 3 - Compute the new value for the mean and deviation of the two models.<br>
+<img src="https://github.com/allarassemjonathan/Fatigue_Detection_algorithm/blob/main/im3.PNG" width=400 height=400>
 4 - Compute the new value of the parameter of the latent &pi;.<br>
 5 - Run instruction 2- while the difference in the parameters of the models is greater than an arbitrary value &epsilon;.
 
