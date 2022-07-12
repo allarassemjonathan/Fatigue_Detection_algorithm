@@ -24,10 +24,4 @@ In this example &epsilon; 's value is 10^-20.
 ## Making predictions
 
 Once the model is learned we can start making predictions. We use the forward backward algorithm for that. It can be easily derived from the bayesian network. 
-Let us recall that the observations X follows a normal distribution of mean  μ_k and deviation  σ_k: X ~ N(μ_k,σ_k ). In the same way the latent variable Z is sampled from a categorical from the vector π_k:  Z ~ cat(Z;π_k ) P(z=├ d┤|x)  ∝∏_d▒π_d^I(Z=d)   1/√(2〖 π_d σ_d〗^2 )  exp⁡(-(x-μ_d )^2/(2〖σ_d〗^2 ))
-
-A way to track if our algorithm works or not is to check that the likelihood decreases over time. We want to maximize the value below:
-
- L(x,z)  ∝ ∑_d▒〖log⁡π_d^I(z=d)  〗⋅log∏_j▒N(├ x_j ┤| μ_d,σ_d ) 
-
-
+Let us recall that the observations X follows a normal distribution of mean  μ_k and deviation  σ_k: X ~ N(μ_k,σ_k ). In the same way the latent variable Z is sampled from a categorical from the vector π_k:  Z ~ cat(Z;π_k )
