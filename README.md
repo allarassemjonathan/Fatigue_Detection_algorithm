@@ -10,10 +10,14 @@ Once we have learn the parameters from the data we can make prediction using the
 ## Learning the parameters of the mixture of Gaussian
 
 We use the Expectation Maximization to learn the parameters.<br>
-1 - Randomly initialize the parameters of the two models (&mu; and &sigma;) as well as &pi; the parameter of the latent variable. Randomly initialize the 2xn vector &#915; that will hold the conditional probabilities for the individual datapoints given the value of the latent Z.<br>
+1 - Randomly initialize the parameters of the two models (&mu; and &sigma;) as well as &pi; the parameter of the latent variable. Randomly initialize the 2xn vector  &#915; that will hold the conditional probabilities for the individual datapoints given the value of the latent Z.<br>
 2 - Compute the new value of &Gamma; with the randomly generated model.<br>
 3 - Compute the new value for the mean and deviation of the two models.<br>
 4 - Compute the new value of the parameter of the latent &pi;.<br>
 5 - Run instruction 2- while the difference in the parameters of the models is greater than an arbitrary value &epsilon;.
+
+Below we can see how the algorithm is run until the values of the parameters start converging breaking the condition put on the &epsilon. 
+In this example &epsion's value is 10^-20.
+
 
 
