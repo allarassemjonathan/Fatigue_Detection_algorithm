@@ -31,7 +31,7 @@ First we have to find the joint distribution from the network:<br><br>
 
 The Markov Chain is learned from data through a Monte Carlo process, the others parameters are learned from the Personalization part. Using the Bayes rule we can derive that in fact the likelihood is proportional to the joint distribution. From that we can use the below expression to compute the likelihood of the data.
 
-<img src="https://github.com/allarassemjonathan/Fatigue_Detection_algorithm/blob/main/im6.PNG" width=400 height=70><br><br>
+<img src="https://github.com/allarassemjonathan/Fatigue_Detection_algorithm/blob/main/im6.PNG" width=400 height=30><br><br>
 
 We notice that after doing the backward part of the algorithm, we find pretty much the same estimation hence for computational reasons we decided not to to a backward run and to estimate by multiplying the two. 
 
