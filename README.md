@@ -23,7 +23,7 @@ In this example &epsilon; 's value is 10^-20.
 
 <img src="https://github.com/allarassemjonathan/Fatigue_Detection_algorithm/blob/main/EMrunning.PNG" width=800 height=620>
 
-## Making predictions
+## Assessment or predictions of the latent state of the runner
 
 Once the model is learned we can start making predictions. We use the forward backward algorithm for that. It can be easily derived from the bayesian network. 
 First we have to find the joint distribution from the network:<br><br>
