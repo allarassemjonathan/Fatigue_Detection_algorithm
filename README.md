@@ -7,7 +7,7 @@ Once we have learn the parameters from the data we can make prediction using the
 
 <img src="https://github.com/allarassemjonathan/Fatigue_Detection_algorithm/blob/main/pic.PNG" width=400 height=300>
 
-## Learning the parameters of the mixture of Gaussian
+## Personalization or Learning the parameters of the mixture of Gaussian
 
 We use the Expectation Maximization to learn the parameters.<br>
 1 - Randomly initialize the parameters of the two models (&mu; and &sigma;) as well as &pi; the parameter of the latent variable. Randomly initialize the 2xn vector  &gamma; that will hold the conditional probabilities for the individual datapoints given the value of the latent Z.<br>
